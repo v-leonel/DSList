@@ -55,11 +55,11 @@ public class Game {
 		this.id = id;
 	}
 
-	public String getTitile() {
+	public String getTitle() {
 		return title;
 	}
 
-	public void setTitile(String title) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 
@@ -135,8 +135,6 @@ public class Game {
 		Game other = (Game) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
 	
 	
 }
